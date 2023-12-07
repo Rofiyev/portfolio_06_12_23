@@ -102,7 +102,7 @@ export const Socials: ISocials[] = [
   },
 ];
 
-export const Frontend_skill: ISkills[] = [
+export const Frontend_skill_1: ISkills[] = [
   {
     skill_name: "Html 5",
     Image: "/html.png",
@@ -116,20 +116,44 @@ export const Frontend_skill: ISkills[] = [
     height: 80,
   },
   {
+    skill_name: "Sass",
+    Image: "/sass.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Sass",
+    Image: "/bootstrap.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Java Script",
     Image: "/js.png",
     width: 65,
     height: 65,
   },
   {
-    skill_name: "Tailwind Css",
-    Image: "/tailwind.png",
+    skill_name: "JQuery",
+    Image: "/jquery.png",
+    width: 95,
+    height: 95,
+  },
+  {
+    skill_name: "Webpack",
+    Image: "/webpack.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Material UI",
-    Image: "/mui.png",
+    skill_name: "Vite",
+    Image: "/vite.png",
+    width: 75,
+    height: 75,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tailwind.png",
     width: 80,
     height: 80,
   },
@@ -140,10 +164,43 @@ export const Frontend_skill: ISkills[] = [
     height: 80,
   },
   {
+    skill_name: "Router Dom",
+    Image: "/router-dom.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Redux",
     Image: "/redux.png",
     width: 80,
     height: 80,
+  },
+  {
+    skill_name: "Zustand",
+    Image: "/zustand.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Material UI",
+    Image: "/mui.png",
+    width: 80,
+    height: 80,
+  },
+];
+
+export const Frontend_skill_2: ISkills[] = [
+  {
+    skill_name: "Ant design UI",
+    Image: "/ant-design.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Story Book",
+    Image: "/story-book.png",
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "React Query",
@@ -158,10 +215,58 @@ export const Frontend_skill: ISkills[] = [
     height: 80,
   },
   {
-    skill_name: "Next js 13",
-    Image: "/next.png",
+    skill_name: "Next js",
+    Image: "/nextjs.png",
     width: 80,
     height: 80,
+  },
+  {
+    skill_name: "Framer Motion",
+    Image: "/motion.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Vue js",
+    Image: "/vuejs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "VueX",
+    Image: "/vuex.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Pinia",
+    Image: "/pinia.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Buefy",
+    Image: "/buefy.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Vuesax",
+    Image: "/vuesax.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Prime Vuejs",
+    Image: "/prime-vuejs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Chakra UI",
+    Image: "/chakra.png",
+    width: 70,
+    height: 70,
   },
 ];
 
@@ -175,6 +280,12 @@ export const Backend_skill: ISkills[] = [
   {
     skill_name: "Express js",
     Image: "/express.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Nest js",
+    Image: "/nest.png",
     width: 80,
     height: 80,
   },
@@ -196,12 +307,7 @@ export const Backend_skill: ISkills[] = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "My SQL",
-    Image: "/mysql.png",
-    width: 70,
-    height: 70,
-  },
+
   {
     skill_name: "Prisma",
     Image: "/prisma.webp",
@@ -218,37 +324,39 @@ export const Backend_skill: ISkills[] = [
 
 export const Full_stack: ISkills[] = [
   {
+    skill_name: "Postman",
+    Image: "/postman.png",
+    width: 75,
+    height: 75,
+  },
+  {
+    skill_name: "Web Socket",
+    Image: "/socket.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "React Native",
     Image: "/ReactNative .png",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
   },
-  {
-    skill_name: "Tauri",
-    Image: "/tauri.svg",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Docker",
-    Image: "/docker.webp",
-    width: 70,
-    height: 70,
-  },
-
+  // {
+  //   skill_name: "Tauri",
+  //   Image: "/tauri.svg",
+  //   width: 70,
+  //   height: 70,
+  // },
+  // {
+  //   skill_name: "Docker",
+  //   Image: "/docker.webp",
+  //   width: 70,
+  //   height: 70,
+  // },
   {
     skill_name: "Figma",
     Image: "/figma.png",
     width: 50,
     height: 50,
-  },
-];
-
-export const Other_skill: ISkills[] = [
-  {
-    skill_name: "Go",
-    Image: "/go.png",
-    width: 60,
-    height: 60,
   },
 ];

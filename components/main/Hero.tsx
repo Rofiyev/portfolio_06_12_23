@@ -4,7 +4,7 @@ import HeroContent from "@/components/sub/HeroContent";
 
 const Hero = (): JSX.Element => {
   return (
-    <div className="relative flex flex-col h-full w-full">
+    <div id="about" className="relative flex flex-col h-full w-full">
       <video
         autoPlay
         muted
