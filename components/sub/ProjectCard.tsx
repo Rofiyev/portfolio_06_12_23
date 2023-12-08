@@ -10,7 +10,7 @@ const ProjectCard: FC<{
   description: string;
 }> = ({ src, title, description }) => {
   return (
-    <div className="relative flex flex-col justify-between overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-96 z-[21]">
+    <div className="relative flex flex-col justify-between overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-80 md:w-96 z-[21]">
       <div className="flex flex-col">
         <Image
           src={src}

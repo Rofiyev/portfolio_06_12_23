@@ -19,7 +19,7 @@ const Skills = (): JSX.Element => {
       <SkillText />
 
       <div className="absolute w-full h-full top-[25%] z-[11]">
-        <div className="flex flex-row justify-center flex-wrap mt-4 gap-4 items-center">
+        <div className="flex flex-row justify-center flex-wrap mt-4 gap-3 items-center">
           {Frontend_skill_1.map(
             ({ Image, height, width, skill_name }: ISkills, i: number) => (
               <SkillDataProvider
@@ -34,7 +34,7 @@ const Skills = (): JSX.Element => {
           )}
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap mt-4 gap-4 items-center">
+        <div className="flex flex-row justify-center flex-wrap mt-4 gap-3 items-center">
           {Frontend_skill_2.map(
             ({ Image, height, width, skill_name }: ISkills, i: number) => (
               <SkillDataProvider
@@ -49,7 +49,7 @@ const Skills = (): JSX.Element => {
           )}
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap mt-4 gap-4 items-center">
+        <div className="flex flex-row justify-center flex-wrap mt-4 gap-3 items-center">
           {Backend_skill.map(
             ({ Image, height, width, skill_name }: ISkills, i: number) => (
               <SkillDataProvider
@@ -64,7 +64,7 @@ const Skills = (): JSX.Element => {
           )}
         </div>
 
-        <div className="flex flex-row justify-center flex-wrap mt-4 gap-4 items-center">
+        <div className="flex flex-row justify-center flex-wrap mt-4 gap-3 items-center">
           {Full_stack.map(
             ({ Image, height, width, skill_name }: ISkills, i: number) => (
               <SkillDataProvider
