@@ -290,6 +290,18 @@ export const Backend_skill: ISkills[] = [
     height: 80,
   },
   {
+    skill_name: "Pug",
+    Image: "/pug.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Handlebars",
+    Image: "/handlebars.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Mongo db",
     Image: "/mongodb.png",
     width: 40,
@@ -323,6 +335,19 @@ export const Backend_skill: ISkills[] = [
 ];
 
 export const Full_stack: ISkills[] = [
+  {
+    skill_name: "Git",
+    Image: "/git.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Github",
+    Image: "/github.png",
+    width: 75,
+    height: 75,
+  },
+
   {
     skill_name: "Postman",
     Image: "/postman.png",
