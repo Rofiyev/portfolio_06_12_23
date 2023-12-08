@@ -1,5 +1,5 @@
-import { Socials, navbarItems } from "@/constants";
-import { INavbar, ISocials } from "@/interface";
+import { navbarItems } from "@/constants";
+import { INavbar } from "@/interface"
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 
