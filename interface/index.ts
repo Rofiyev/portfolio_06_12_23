@@ -10,8 +10,3 @@ export interface ISkills {
   width: number;
   height: number;
 }
-
-export interface ISocials {
-  name: string;
-  src: string;
-}

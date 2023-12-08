@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] relative z-[21] max-w-7xl mx-auto">
       <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full flex flex-row items-start justify-around flex-wrap mb-14 gap-10">
+        <div className="w-full h-full flex flex-row items-start justify-start ml-5 sm:justify-around flex-wrap mb-14 gap-10">
           <div className="min-w-[200px] h-auto flex gap-3 flex-col items-start justify-start">
             <div className="font-bold text-[16px]">Community</div>
             <Link

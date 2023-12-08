@@ -1,4 +1,4 @@
-import { INavbar, ISkills, ISocials } from "@/interface";
+import { INavbar, ISkills } from "@/interface";
 
 export const navbarItems: INavbar[] = [
   { id: 1, label: "About", route: "#about" },
@@ -67,12 +67,7 @@ export const Skill_data: ISkills[] = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
+
   {
     skill_name: "Node js",
     Image: "/node-js.png",
@@ -84,21 +79,6 @@ export const Skill_data: ISkills[] = [
     Image: "/mongodb.png",
     width: 40,
     height: 40,
-  },
-];
-
-export const Socials: ISocials[] = [
-  {
-    name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
   },
 ];
 
@@ -164,12 +144,6 @@ export const Frontend_skill_1: ISkills[] = [
     height: 80,
   },
   {
-    skill_name: "Router Dom",
-    Image: "/router-dom.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Redux",
     Image: "/redux.png",
     width: 80,
@@ -187,15 +161,15 @@ export const Frontend_skill_1: ISkills[] = [
     width: 80,
     height: 80,
   },
-];
-
-export const Frontend_skill_2: ISkills[] = [
   {
     skill_name: "Ant design UI",
     Image: "/ant-design.png",
     width: 80,
     height: 80,
   },
+];
+
+export const Frontend_skill_2: ISkills[] = [
   {
     skill_name: "Story Book",
     Image: "/story-book.png",
@@ -217,6 +191,12 @@ export const Frontend_skill_2: ISkills[] = [
   {
     skill_name: "Next js",
     Image: "/nextjs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Stripe Payment",
+    Image: "/stripe.webp",
     width: 80,
     height: 80,
   },

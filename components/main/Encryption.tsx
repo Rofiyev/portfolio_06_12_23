@@ -5,11 +5,11 @@ import Image from "next/image";
 
 const Encryption = (): JSX.Element => {
   return (
-    <div className="flex flex-row relative items-center justify-center w-full min-h-[700px] max-w-7xl mx-auto">
+    <div className="flex flex-row relative items-center justify-center w-full min-h-[500px] sm:min-h-[700px] max-w-7xl mx-auto">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-gray-200"
+          className="text-3xl sm:text-[40px] font-medium text-gray-200"
         >
           <span>
             Performacne

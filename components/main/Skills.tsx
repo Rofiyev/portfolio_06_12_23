@@ -13,7 +13,7 @@ const Skills = (): JSX.Element => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-3 !max-w-7xl !min-w-full mx-auto !min-h-[900px] relative !pb-60 py-20 "
+      className="flex flex-col items-center justify-center gap-3 !max-w-7xl !min-w-full mx-auto sm:min-h-[900px] min-h-[1600px] relative pb-60 py-20 "
       style={{ transform: "scale(0.9)" }}
     >
       <SkillText />

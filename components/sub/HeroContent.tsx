@@ -16,7 +16,7 @@ const HeroContent = () => {
       animate="visible"
       className="flex flex-col-reverse md:flex-row items-center justify-center !max-w-7xl mx-auto mt-40 z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-5 justify-center p-5 sm:p-0 text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
@@ -29,7 +29,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 text-4xl sm:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
